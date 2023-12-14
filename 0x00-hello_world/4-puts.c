@@ -1,13 +1,11 @@
 #include <stdio.h>
-
 /**
- * main - main wow 
+ * main - main
  *
- * go go go
+ * done
  *
- * Return:sss 0 (aa)
- */
-
+ * Return: 0
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
