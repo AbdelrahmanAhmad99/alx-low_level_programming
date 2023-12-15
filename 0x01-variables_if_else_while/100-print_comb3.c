@@ -19,6 +19,7 @@ if (op != ui && op < ui)
 putchar('0' + op);
 putchar('0' + ui);
 if (ui + op != 17)
+{
 putchar(',');
 putchar(' ');
 }

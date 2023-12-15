@@ -16,7 +16,7 @@ int jkl;
 while (m <= 98)
 {
 hj = (m / 10 + '0');
-jk = (mb % 10 + '0');
+jk = (m % 10 + '0');
 mb2 = 0;
 while (mb2 <= 99)
 {
