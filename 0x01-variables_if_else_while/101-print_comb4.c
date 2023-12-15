@@ -9,8 +9,8 @@ int main(void)
 {
 int as;
 int fg;
-int po = 0;
-while (po < 10)
+int op = 0;
+while (op < 10)
 {
 fg = 0;
 while (fg < 10)
