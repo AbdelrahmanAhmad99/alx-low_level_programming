@@ -6,27 +6,28 @@
 */
 int main(void)
 {
-unsigned long int a, s, d, aja, djd, aka, dkd;
+unsigned long int a, s, d, aa, dd, ak, dk;
 s = 1;
 d = 2;
 printf("%lu", s);
 for (a = 1; a < 91; a++)
+{
 printf(", %lu", d);
 d = d + s;
 s = d - s;
 }
-aja = s / 1000000000;
-djd = s % 1000000000;
-aka = d / 1000000000;
-dkd = d % 1000000000;
+aa = s / 1000000000;
+dd = s % 1000000000;
+ak = d / 1000000000;
+dk = d % 1000000000;
 for (a = 92; a < 99; ++a)
 {
-printf(", %lu", aka + (dkd / 1000000000));
-printf("%lu", dkd % 1000000000);
-aka = aka + aja;
-aja = aka - aja;
-dkd = dkd + djd;
-djd = dkd - djd;
+printf(", %lu", ak + (dk / 1000000000));
+printf("%lu", dk % 1000000000);
+ak = ak + aa;
+aa = ak - aa;
+dk = dk + dd;
+dd = dk - dd;
 }
 printf("\n");
 return (0);
