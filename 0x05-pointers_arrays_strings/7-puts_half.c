@@ -11,7 +11,7 @@ void puts_half(char *str)
 	l = 0;
 	while (str[l] != '\0')
 	{
-	len++;
+	l++;
 	}
 	if (l % 2 == 0)
 	{

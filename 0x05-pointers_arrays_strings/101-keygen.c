@@ -21,7 +21,7 @@ int main(void)
 	putchar(pass[i] + '0');
 	if ((2772 - s) - '0' < 78)
 	{
-	n = 2772 - s - '0';
+	d = 2772 - s - '0';
 	s += d;
 	putchar(d + '0');
 	break;
