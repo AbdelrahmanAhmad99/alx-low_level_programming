@@ -24,3 +24,4 @@ char *rot13(char *d)
 	}
 	}
 return (d);
+}
